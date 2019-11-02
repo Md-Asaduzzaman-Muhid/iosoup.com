@@ -17,3 +17,77 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
+
+nbproject
+demo/nbproject
+demo/wp-config.php
+demo/wp-content/cache/*
+tools/*
+feedback/*
+database/old/*
+docs/*
+review/*
+design/*
+backup/*
+live/*
+/.idea
+html/bower_components/*
+html/node_modules/*
+demo/wp-content/themes/**/bower_components/*
+demo/wp-content/themes/**/node_modules/*
+demo/wp-content/uploads/wpcf7_captcha/**
+
+
+#all node modules ignore
+**/bower_components/**
+**/node_modules/**
+
+# ignore all files start with . (dot)
+.htaccess
+
+# ignore all files that start with ~
+~*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.vscode
+
+# ignore log files and databases
+*.log
+
+
+ ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.map
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Any video/Audio files
+#*.mp4
+*.mp3
+
+# Not Env Folder
+!env/.htaccess
+
+
