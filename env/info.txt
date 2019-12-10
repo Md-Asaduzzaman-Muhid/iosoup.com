@@ -1,9 +1,7 @@
 
 DB config:
-host: 192.168.0.110
-user: iosoup
-pass: io@011119
+databse added on env folder
 
 Admin config:
-user: iosoup
-pass: io@011119
+user: io-admin
+pass: Io@011119
